@@ -6,12 +6,8 @@
 
 *It assumes the linux repository has been cloned and the directory linux exists in current directory ./
 
-*It uses gnuPlot by echo-ing the commands into a file, making it executable with "chmod +x file", then 
-executing it and outputting the stream into a png that is then opened.
+*It uses gnuPlot by echo-ing the commands into a file, making it executable with "chmod +x file", then executing it and outputting the stream into a png that is then opened.
 
-*All extra files are deleted upon completion, except for the H_FILES and C_FILES directory, which in 
-order to avoid overwriting files with the same name, for example main.c is found in many directories, 
-are copied using "cp --parents" which keeps the relative route to the file.
+*All extra files are deleted upon completion, except for the H_FILES and C_FILES directory, which in order to avoid overwriting files with the same name, for example main.c is found in many directories, are copied using "cp --parents" which keeps the relative route to the file.
 
-*I used gnuplot version 4.6 through gnuplot-x11 in Ubuntu. Lines referring to gnuplot are lines 13-27
-and 83-84
+*I used gnuplot version 4.6 through gnuplot-x11 in Ubuntu. Lines referring to gnuplot are lines 13-27 and 83-84
